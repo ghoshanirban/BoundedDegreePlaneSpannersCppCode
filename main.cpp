@@ -39,6 +39,7 @@ int main() {
     */
 
     // Points can also be loaded from files
+    // Warning: make sure the directory 'realworldpointsets' is present with the desired pointset(s) in it
     //g.loadFromFile("../realworldpointsets/Burma.xy",P);
 
     std::vector<Edge> E; // every edge is represented using a pair of point-ids which are its endpoints
