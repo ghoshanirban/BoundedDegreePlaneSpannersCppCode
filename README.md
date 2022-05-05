@@ -22,3 +22,7 @@ To build the project, use CMake. Please note that depending on your system, the 
 * [Matthew Graham, University of North Florida, FL, USA](https://github.com/mgatc)
 * [Lucas Mougeot, University of North Florida, FL, USA](https://github.com/lucasfuturist)
 * [David Wisnosky, University of North Florida, FL, USA](https://github.com/Wisno33)
+
+## Acknowledgement
+
+Research on this project was supported by the University of North Florida Academic Technology Grant and NSF Award CCF-1947887.
