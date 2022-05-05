@@ -8,3 +8,10 @@
 * [MPFR](https://www.mpfr.org/)
 
 
+## Authors
+
+* [Fred Anderson](https://github.com/TheDKG)
+* [Anirban Ghosh](https://github.com/ghoshanirban)
+* [Lucas Mougeot](https://github.com/lucasfuturist)
+* [David Wisnosky](https://github.com/Wisno33)
+* [Matthew Graham](https://github.com/mgatc)
