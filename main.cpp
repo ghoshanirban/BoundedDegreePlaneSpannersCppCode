@@ -1,16 +1,3 @@
-/*
- * make main.cpp more user-friendly
- *
- * large pointsets on GitHub?
- * linux cmake
- * github url in the paper
- */
-
-/*
- * Build: cmake CMakeLists.txt
- * Run: ./libspanner
- */
-
 #include <iostream>
 
 #include "algorithms/SpannerAlgorithms.h"
