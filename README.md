@@ -12,6 +12,6 @@
 
 * [Fred Anderson, University of North Florida, FL, USA](https://github.com/TheDKG)
 * [Anirban Ghosh, University of North Florida, FL, USA](https://github.com/ghoshanirban)
+* [Matthew Graham, University of North Florida, FL, USA](https://github.com/mgatc)
 * [Lucas Mougeot, University of North Florida, FL, USA](https://github.com/lucasfuturist)
 * [David Wisnosky, University of North Florida, FL, USA](https://github.com/Wisno33)
-* [Matthew Graham, University of North Florida, FL, USA](https://github.com/mgatc)
