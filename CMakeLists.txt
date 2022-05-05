@@ -29,7 +29,6 @@ add_executable(libspanner
 
         utilities/pointsetgenerators.h
         utilities/ordering.h
-        utilities/measure.h
         utilities/mst.h
         utilities/geometry.h
         utilities/constants.h
