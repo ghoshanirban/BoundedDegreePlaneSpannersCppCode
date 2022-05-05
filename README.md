@@ -13,6 +13,7 @@ We present a simple practical algorithm, named AppxStretchFactor, that can estim
 * [GMP](https://gmplib.org/)
 * [MPFR](https://www.mpfr.org/)
 
+To build the project, use CMake. Please note that depending on your system, the supplied makefile CMakeLists.txt may need to be edited slightly. We have tested the project on Ubuntu 20.04 LTS. 
 
 ## Authors
 
