@@ -6,6 +6,10 @@ We present a simple practical algorithm, named AppxStretchFactor, that can estim
 
 ## Built with
 
+To build the project, use CMake.
+
+**Warning:  Before you run CMake, make sure CGAL and the following required libraries are installed on your system. Please note that depending on your system, the supplied makefile CMakeLists.txt may need to be edited slightly. We have tested the project on Ubuntu 20.04 LTS. With some slight modifications in the CMakeLists.txt the project can be build on MacOS as well. **
+
 * [GCC](https://gcc.gnu.org/)
 * [C++17](https://en.cppreference.com/w/cpp/17)
 * [CGAL](https://www.cgal.org/)
@@ -13,7 +17,7 @@ We present a simple practical algorithm, named AppxStretchFactor, that can estim
 * [GMP](https://gmplib.org/)
 * [MPFR](https://www.mpfr.org/)
 
-To build the project, use CMake. Please note that depending on your system, the supplied makefile CMakeLists.txt may need to be edited slightly. We have tested the project on Ubuntu 20.04 LTS. 
+
 
 ## Authors
 
