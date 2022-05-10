@@ -4,6 +4,8 @@ The construction of bounded-degree plane geometric spanners has been a focus of 
 
 We present a simple practical algorithm, named AppxStretchFactor, that can estimate  stretch factors (obtains  lower bounds on the exact stretch factors) of geometric spanners - a challenging problem for which no practical algorithm is known yet. In our experiments with bounded-degree plane geometric spanners, we find that AppxStretchFactor estimates stretch factors almost precisely. Further, it gives linear runtime performance in practice for the pointset distributions considered in this work, making it much faster than the naive Dijkstra-based algorithm for calculating stretch factors
 
+Pre-print: https://arxiv.org/abs/2205.03204
+
 ## Built with
 
 To build the project, use CMake. Before running CMake, make sure CGAL and the following required libraries are installed on your system. Please note that depending on your system, the supplied makefile CMakeLists.txt may need to be edited slightly. We have tested the project on Ubuntu 20.04 LTS. With some slight modifications in the CMakeLists.txt, the project can be built on macOS as well. 
