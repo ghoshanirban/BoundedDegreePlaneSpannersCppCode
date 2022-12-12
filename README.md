@@ -1,4 +1,4 @@
-## Bounded-degree plane geometric spanners in practice
+## Bounded-degree Plane Geometric Spanners in Practice
 
 The construction of bounded-degree plane geometric spanners has been a focus of interest  since 2002 when Bose, Gudmundsson, and Smid proposed the first algorithm to construct such spanners. To date, eleven algorithms have been designed with various trade-offs in degree and stretch-factor. We have implemented these sophisticated spanner algorithms in \textsf{C}\texttt{++} using the  \textsf{CGAL} library and experimented with them using large synthetic and real-world pointsets. Our  experiments  have revealed their practical behavior and real-world efficacy. We share the implementations via \textsf{GitHub} for broader uses and future research.
 		
