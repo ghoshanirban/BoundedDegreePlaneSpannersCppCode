@@ -1,10 +1,10 @@
 ## Bounded-degree plane geometric spanners in practice
 
-The construction of bounded-degree plane geometric spanners has been a focus of interest  since 2002 when Bose, Gudmundsson, and Smid proposed the first algorithm to construct such spanners. To date, eleven algorithms have been designed with various trade-offs in degree and stretch factor. We have implemented these sophisticated algorithms in C++ using the CGAL library and experimented with them using large synthetic and real-world pointsets. Our  experiments  have revealed their practical behavior and real-world efficacy. We share the implementations via GitHub for broader uses and future research.
+The construction of bounded-degree plane geometric spanners has been a focus of interest  since 2002 when Bose, Gudmundsson, and Smid proposed the first algorithm to construct such spanners. To date, eleven algorithms have been designed with various trade-offs in degree and stretch-factor. We have implemented these sophisticated spanner algorithms in \textsf{C}\texttt{++} using the  \textsf{CGAL} library and experimented with them using large synthetic and real-world pointsets. Our  experiments  have revealed their practical behavior and real-world efficacy. We share the implementations via \textsf{GitHub} for broader uses and future research.
+		
+We design and engineer \textsc{EstimateStretchFactor}, a simple practical algorithm, that can estimate  stretch-factors (obtains  lower bounds on the exact stretch-factors) of geometric spanners -- a challenging problem for which no practical algorithm is known yet. In our experiments with bounded-degree plane geometric spanners, we found that \textsc{EstimateStretchFactor} estimated stretch-factors almost precisely. Further, it gave linear runtime performance in practice for the pointset distributions considered in this work, making it much faster than the naive Dijkstra-based algorithm for calculating stretch-factors. 
 
-We present a simple practical algorithm, named AppxStretchFactor, that can estimate  stretch factors (obtains  lower bounds on the exact stretch factors) of geometric spanners - a challenging problem for which no practical algorithm is known yet. In our experiments with bounded-degree plane geometric spanners, we find that AppxStretchFactor estimates stretch factors almost precisely. Further, it gives linear runtime performance in practice for the pointset distributions considered in this work, making it much faster than the naive Dijkstra-based algorithm for calculating stretch factors
-
-Pre-print: https://arxiv.org/abs/2205.03204
+To appear in ACM Journal of Experimental Algorithmics, Pre-print: https://arxiv.org/abs/2205.03204
 
 ## Built with
 
@@ -16,7 +16,6 @@ To build the project, use CMake. Before running CMake, make sure CGAL and the fo
 * [Boost](https://www.boost.org/)
 * [GMP](https://gmplib.org/)
 * [MPFR](https://www.mpfr.org/)
-
 
 
 ## Authors
