@@ -190,56 +190,6 @@ namespace BoundedDegreePlaneSpanners {
 //    }
 
 
-        //
-        //
-        // START PRINTER NONSENSE
-        //
-        //
-
-
-//    if( printLog ) {
-//        GraphPrinter printer(0.007);
-//        GraphPrinter::OptionsList options;
-//
-//        options = {
-//            { "color", printer.inactiveEdgeColor },
-//            { "line width", to_string(printer.inactiveEdgeWidth) }
-//        };
-//        printer.drawEdges( T, options );
-//
-//        options = { // active edge options
-//            { "color", printer.activeEdgeColor },
-//            { "line width", to_string(printer.activeEdgeWidth) }
-//        };
-//        printer.drawEdges( edgeList.begin(), edgeList.end(), options );
-//
-//
-//        options = {
-//            { "vertex", make_optional( to_string(printer.vertexRadius) ) }, // vertex width
-//            { "color", make_optional( printer.backgroundColor ) }, // text color
-//            { "fill", make_optional( printer.activeVertexColor ) }, // vertex color
-//            { "line width", make_optional( to_string(0) ) } // vertex border (same color as text)
-//        };
-//        GraphPrinter::OptionsList borderOptions = {
-//            { "border", make_optional( to_string(printer.vertexRadius) ) }, // choose shape of vertex
-//            { "color", printer.activeEdgeColor }, // additional border color
-//            { "line width", to_string(printer.inactiveEdgeWidth) }, // additional border width
-//        };
-//        printer.drawVerticesWithInfo( T, options, borderOptions );
-//
-//        printer.print( "lw2004" );
-//        cout<<"\n";
-//    }
-
-
-
-
-        //
-        //
-        // END PRINTER NONSENSE
-        //
-        //
-
     } // function LW04
 
 } // namespace spanner
