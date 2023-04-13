@@ -7,6 +7,5 @@
 
 #include "degree.h"
 #include "stretchfactor.h"
-#include "lightness.h"
 
 #endif //LIBSPANNER_SPANNERMEASUREMENTS_H
