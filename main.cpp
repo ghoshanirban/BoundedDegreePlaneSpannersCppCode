@@ -58,7 +58,5 @@ int main() {
                                                                  E.begin(), E.end()) << std::endl;
     std::cout << "Stretch Factor (exact.): " << exactStretchFactor(P.begin(), P.end(),
                                                                    E.begin(), E.end()) << std::endl;
-    std::cout << "Lightness: " << lightness(P.begin(), P.end(),
-                                            E.begin(), E.end()) << std::endl;
     return EXIT_SUCCESS;
 }
